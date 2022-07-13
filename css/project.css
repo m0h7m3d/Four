@@ -1,0 +1,121 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Work Sans", sans-serif;
+    background-color: #190e2c;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+.project{
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    background-color: #190e2c;
+    border: 8px solid white;
+    border-radius: 9px;
+}
+.project .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project .box{
+    margin-left: 130px;
+}
+.project .image{
+    border: 15px solid brown;
+    margin-right: -62px;
+    margin-left: 30px;
+}
+.project .image img{
+    max-width: 100%;
+    margin-left: -54px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.project .text h2{
+    color: white;
+    font-size: 35px;
+}
+.project .tow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 487px;
+}
+.project i{
+    color: brown;
+    font-size: 22px;
+}
+.project h5{
+    font-size: 19px;
+    color: brown;
+}
+.project .one-text p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #777;
+}
+.project .boxing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 280px;
+}
+.project .icon{
+    border: 3px solid #77777738;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+.project .icon i{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.project .icon h4{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
